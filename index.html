@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="fontiran.css">
+  <link rel="stylesheet" href="/CSS/style.css">
+
+</head>
+
+<body>
+  <!-- =============================================================================
+    
+    Title: Simple Azarakhsh Send form
+    Description: Simple Clean form for Send
+    Designer: Aminmoharrami
+    Site: http://www.Beaunice.com
+    Instagram: @Aminmoharramishizari
+    Location: Alborz
+
+    ==== THANKS ==== 
+
+    font: IRANSans/
+    Icon font:   http://fontawesome.io/icons/
+
+    ==== @TODO ====
+
+    Make <select> easier to select
+
+========================================================================== -->
+
+  <form action="">
+    <!--  General -->
+    <div class="form-group">
+      <h2 class="heading">ثبت فرم اطلاعات دستگاه</h2>
+      <div class="controls">
+        <input type="text" id="name" class="floatLabel" name="name">
+        <label for="name">نام دستگاه</label>
+      </div>
+      <div class="controls">
+        <input type="text" id="DeviceStatus" class="floatLabel" name="DeviceStatus">
+        <label for="DeviceStatus">وضعیت دستگاه</label>
+      </div>
+      <div class="col-1-3 col-1-3-sm">
+        <div class="controls">
+          <i class="fa fa-sort"></i>
+          <select class="floatLabel">
+            <option value="blank"></option>
+            <option value="1">مبدا شماره یک</option>
+            <option value="2" selected>مبدا شماره دو</option>
+            <option value="3">مبدا شماره سه</option>
+          </select>
+          <label for="fruit">نوع انتقال<i class="fa fa-arrow-circle-left"></i>&nbsp;&nbsp;</label>
+        </div>
+      </div>
+      <div class="col-2-3 col-1-3-sm" style="padding: 0;">
+        <div class="controls">
+          <i class="fa fa-sort"></i>
+          <select class="floatLabel">
+            <option value="blank">هیچکدام</option>
+            <option value="deluxe" selected>جایگزینی شماره یک</option>
+            <option value="Zuri-zimmer">جایگزینی شماره دو</option>
+          </select>
+          <label for="fruit">جایگزینی مستخدم<i class="fa fa-arrow-circle-left"></i>&nbsp;&nbsp;</label>
+        </div>
+      </div>
+    </div>
+    <!-----------------------------Setting ----------------------------------->
+    <div class="form-group">
+      <h2 class="heading">تنظیمات دستگاه</h2>
+      <div class="grid">
+      </div>
+      <div class="grid">
+        <div class="col-1-3 col-1-3-sm">
+          <div class="controls">
+            <i class="fa fa-sort"></i>
+            <select class="floatLabel">
+              <option value="blank"></option>
+              <option value="1">مبدا شماره یک</option>
+              <option value="2" selected>مبدا شماره دو</option>
+              <option value="3">مبدا شماره سه</option>
+            </select>
+            <label for="fruit">نقطه شروع<i class="fa fa-arrow-circle-left"></i>&nbsp;&nbsp;</label>
+          </div>
+        </div>
+        <div class="col-2-3 col-1-3-sm" style="padding: 0;">
+          <div class="controls">
+            <i class="fa fa-sort"></i>
+            <select class="floatLabel">
+              <option value="blank">هیچکدام</option>
+              <option value="deluxe" selected>جایگزینی شماره یک</option>
+              <option value="Zuri-zimmer">جایگزینی شماره دو</option>
+            </select>
+            <label for="fruit">جایگزینی مستخدم<i class="fa fa-arrow-circle-left"></i>&nbsp;&nbsp;</label>
+          </div>
+        </div>
+        <div class="col-1-3 col-1-3-sm">
+          <!-- <div class="controls">
+      <i class="fa fa-sort"></i>
+      <select class="floatLabel">
+        <option value="blank"></option>
+        <option value="single-bed">Zweibett</option>
+        <option value="double-bed" selected>Doppelbett</option>
+      </select>
+      <label for="fruit">Bedding</label>
+     </div>      -->
+        </div>
+      </div>
+      <div class="grid">
+        <p class="info-text">در صورت نیاز توضیحات خود را پیرامون این انتقال ثبت نمایید</p>
+        <br>
+        <div class="controls">
+          <textarea name="comments" class="floatLabel" id="comments"></textarea>
+          <label for="comments">توضیحات</label>
+        </div>
+        <button type="submit" value="Submit" class="col-1-4">پیش نمایش</button>
+      </div>
+    </div>
+    <!---------------------------------------- Setting ------------------------------->
+  </form>
+<!-- Dependency Script Project -->
+<script src='/JS/jQuery v2.1.3.js'></script>
+<script src='/JS/jQuery _UI.js'></script>
+<script src='/JS/autocomplete.js'>
+</script>
+<script src='/JS/selectToAutocomplete.js'>
+</script>
+<script src="/JS/script.js"></script>
+<!-- Dependency Script Project -->
+</body>
+
+</html>
